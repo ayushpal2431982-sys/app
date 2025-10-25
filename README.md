@@ -23,7 +23,7 @@ iTask is a simple and responsive Todo App built with React that helps you manage
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/iTask.git
+git clone https://github.com/ayushpal2431982-sys/iTask.git
 cd iTask
 
 
