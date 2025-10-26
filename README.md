@@ -1,16 +1,86 @@
-# React + Vite
+📝 iTask - Todo Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+iTask is a simple and responsive Todo App built with React that helps you manage your tasks efficiently. Add, edit, delete, and mark tasks as completed, with localStorage support so your todos persist even after closing the browser.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## React Compiler
+✅ Add new todos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✏️ Edit existing todos
 
-## Expanding the ESLint configuration
+🗑️ Delete todos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔️ Mark todos as completed
+
+🔄 Toggle "Show Finished" to hide or display completed tasks
+
+📱 Fully responsive design (works on desktop & mobile)
+
+💾 LocalStorage integration for data persistence
+
+🚀 Installation
+
+1. Clone the repository:
+
+git clone https://github.com/ayushpal2431982-sys/iTask.git
+cd iTask
+
+
+2. Install dependencies:
+
+npm install
+
+
+3. Start the development server:
+
+4. npm start
+
+
+5. Open http://localhost:3000
+ in your browser.
+
+🛠 Usage
+
+● Add Todo: Enter a task in the input box and click Save.
+
+● Edit Todo: Click the ✏️ Edit icon to update a task.
+
+● Delete Todo: Click the 🗑️ Delete icon to remove a task.
+
+● Mark Completed: Check the box to mark a task as done.
+
+● Show Finished Toggle: Uncheck to hide completed tasks.
+
+
+
+🧰 Technologies Used
+
+● React
+
+● TailwindCSS
+
+● react-icons
+
+● uuid
+ for unique IDs
+
+● LocalStorage API
+
+
+🔮 Future Improvements
+
+● Drag-and-drop to reorder todos
+
+● Add categories or tags for tasks
+
+●  mode toggle
+
+● Backend integration for multi-device sync
+
+⚖️ License
+
+● This project is open-source and available under the MIT License.
+
+
+ 
